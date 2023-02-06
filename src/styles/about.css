@@ -1,0 +1,24 @@
+
+
+.title {
+  font-size: 2.5rem;
+  color: rgb(99, 92, 92);
+  text-align: center;
+}
+
+.about-container {
+  background-image: url('../components/SL-051919-20420-09.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-text {
+  text-align: center;
+  border: 1px solid #000;
+  padding: 20px;
+  font-family: sans-serif;
+}
