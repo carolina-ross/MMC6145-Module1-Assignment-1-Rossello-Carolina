@@ -1,0 +1,22 @@
+
+
+.title {
+    font-size: 1.8rem;
+    color: rgb(99, 92, 92);
+    text-align: center;
+  }
+
+  .iconContainer {
+    margin: auto 500px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .icon {
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+    padding: 30px;
+  }
+  
+  
