@@ -6,23 +6,21 @@ export default function Home() {
   return (
     <main>
       <h1 className={styles.title}>Welcome to my Portfolio Site</h1>
-      <p>Here are some of my projects:</p>
-<ul>
-<li>
-<ProjectPreview 
+      <p className={styles.subText}>Here are some of my projects:</p>
+
+<div className="projectsContainer">
+<ProjectPreview
          projectName="Project 1"
-         projectDescription="This is a description of Project 1"
-         projectLink="#"
+         projectDescription="This is my first group project where we created a page of the last Batman movie"
+         projectLink="http://127.0.0.1:5500/rob_pattinson_page.html"
        />
-</li>
-<li>
-<ProjectPreview 
+
+<ProjectPreview
          projectName="Project 2"
-         projectDescription="This is a description of Project 2"
-         projectLink="#"
+         projectDescription="This is my second group project. Here we created a fitness app"
+         projectLink="http://127.0.0.1:5501/Workouts%20Page.html"
        />
-</li>
-</ul>
+</div>
     </main>
   )
 }
