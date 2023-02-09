@@ -5,13 +5,10 @@ import Contact from './pages/contact'
 import Header from "./components/header"
 
 
-
 export default function App() {
   return (
     <>
       <Header />
-
-      <About />
  
       <Routes>
         <Route path="/" element={<Home />} />
