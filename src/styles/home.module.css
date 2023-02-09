@@ -6,7 +6,15 @@
   text-align: center;
 }
 
+.subText {
+  display: flex;
+  font-size: 22px;
+  align-items: center;
+  justify-content: center;
+}
+
 body {
   background-image: url('../components/SL-051919-20420-09.jpg');
   background-size: cover;
 }
+
