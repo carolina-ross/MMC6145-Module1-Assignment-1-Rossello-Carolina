@@ -7,10 +7,6 @@
 }
 
 .aboutContainer {
-  background-image: url('../components/SL-051919-20420-09.jpg');
-  background-size: cover;
-  background-position: center;
-  height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
