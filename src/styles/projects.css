@@ -1,0 +1,22 @@
+
+
+.projectsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+
+.projectPreview {
+  color: white;
+  background-color: rgba(44, 42, 41, 0.617);
+  padding: 20px;
+  margin: 30px;
+  width: calc(33.33% - 20px);
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  
+}
